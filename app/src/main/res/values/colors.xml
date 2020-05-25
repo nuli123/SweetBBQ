@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#b71c1c</color>
+    <color name="textColorPrimary">#ffd700</color>
+
+    <!--color of background-->
+    <color name="colorBackground">@color/colorPrimaryDark</color>
+    <!--color of headers-->
+    <color name="colorHeader">#ffd700</color>
+    <color name="colorItem">#fafafa</color>
+<!--    <color name="colorButton">#00796b</color>-->
+    <color name="colorButton">#283593</color>
+
+</resources>

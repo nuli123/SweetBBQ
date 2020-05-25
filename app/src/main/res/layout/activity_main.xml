@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/meat_lover"
+            style="@style/Header"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/wings"
+                    style="@style/ItemImage"/>
+
+                <TextView
+                    android:text="Chicken Wings"
+                    android:textStyle="italic"
+                    style="@style/ItemText"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <Button
+                        style="@style/ItemButtonIncrement"
+                        android:id="@+id/incrementWings"
+                        android:layout_toLeftOf="@id/wings"/>
+
+                    <TextView
+                        android:text="0"
+                        style="@style/ItemText"
+                        android:id="@+id/wings"
+                        android:layout_toLeftOf="@id/decrementWings"/>
+                    <Button
+                        style="@style/ItemButtonDecrement"
+                        android:id="@+id/decrementWings"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/sausages"
+                    style="@style/ItemImage"/>
+
+                <TextView
+                    android:text="Sausages"
+                    android:textStyle="italic"
+                    style="@style/ItemText"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <Button
+                        style="@style/ItemButtonIncrement"
+                        android:id="@+id/incrementSausages"
+                        android:layout_toLeftOf="@id/sausages"/>
+
+                    <TextView
+                        android:text="0"
+                        style="@style/ItemText"
+                        android:id="@+id/sausages"
+                        android:layout_toLeftOf="@id/decrementSausages"/>
+                    <Button
+                        style="@style/ItemButtonDecrement"
+                        android:id="@+id/decrementSausages"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:src="@drawable/ribs"
+                    style="@style/ItemImage"/>
+
+                <TextView
+                    android:text="Ribs"
+                    android:textStyle="italic"
+                    style="@style/ItemText"/>
+               <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/incrementRibs"
+                        style="@style/ItemButtonIncrement"
+                        android:layout_toLeftOf="@id/ribs"/>
+
+                    <TextView
+                        android:text="0"
+                        style="@style/ItemText"
+                        android:id="@+id/ribs"
+                        android:layout_toLeftOf="@id/decrementRibs"/>
+
+                    <Button
+                        android:id="@+id/decrementRibs"
+                        style="@style/ItemButtonDecrement"/>
+               </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/steaks"
+                    style="@style/ItemImage"/>
+
+                <TextView
+                    android:text="Wagyu Steak"
+                    android:textStyle="italic"
+                    style="@style/ItemText"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <Button
+                        style="@style/ItemButtonIncrement"
+                        android:id="@+id/incrementSteaks"
+                        android:layout_toLeftOf="@id/steaks"/>
+
+                    <TextView
+                        android:text="0"
+                        style="@style/ItemText"
+                        android:id="@+id/steaks"
+                        android:layout_toLeftOf="@id/decrementSteaks"/>
+                    <Button
+                        style="@style/ItemButtonDecrement"
+                        android:id="@+id/decrementSteaks"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/drink_lover"
+            style="@style/Header"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/wine"
+                    style="@style/ItemImage"/>
+
+                <TextView
+                    android:text="Wine"
+                    android:textStyle="italic"
+                    style="@style/ItemText"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <Button
+                        style="@style/ItemButtonIncrement"
+                        android:id="@+id/incrementWine"
+                        android:layout_toLeftOf="@id/wine"/>
+
+                    <TextView
+                        android:text="0"
+                        style="@style/ItemText"
+                        android:id="@+id/wine"
+                        android:layout_toLeftOf="@id/decrementWine"/>
+                    <Button
+                        style="@style/ItemButtonDecrement"
+                        android:id="@+id/decrementWine"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/beer"
+                    style="@style/ItemImage"/>
+
+                <TextView
+                    android:text="Wine"
+                    android:textStyle="italic"
+                    style="@style/ItemText"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <Button
+                        style="@style/ItemButtonIncrement"
+                        android:id="@+id/incrementBeer"
+                        android:layout_toLeftOf="@id/beer"/>
+
+                    <TextView
+                        android:text="0"
+                        style="@style/ItemText"
+                        android:id="@+id/beer"
+                        android:layout_toLeftOf="@id/decrementBeer"/>
+                    <Button
+                        style="@style/ItemButtonDecrement"
+                        android:id="@+id/decrementBeer"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/coke"
+                    style="@style/ItemImage"/>
+
+                <TextView
+                    android:text="Coke"
+                    android:textStyle="italic"
+                    style="@style/ItemText"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <Button
+                        style="@style/ItemButtonIncrement"
+                        android:id="@+id/incrementCoke"
+                        android:layout_toLeftOf="@id/coke"/>
+
+                    <TextView
+                        android:text="0"
+                        style="@style/ItemText"
+                        android:id="@+id/coke"
+                        android:layout_toLeftOf="@id/decrementCoke"/>
+                    <Button
+                        style="@style/ItemButtonDecrement"
+                        android:id="@+id/decrementCoke"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            style="@style/Header"
+            android:id="@+id/total"
+            android:text="@string/total_initial"/>
+        <Button
+            android:layout_width="wrap_content"
+            style="@style/ItemButton"
+            android:text="Order"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="24dp"
+            android:onClick="order"/>
+    </LinearLayout>
+
+</ScrollView>

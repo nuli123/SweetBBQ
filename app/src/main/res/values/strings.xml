@@ -1,0 +1,12 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Sweet Barbecue</string>
+
+    <string name="meat_lover">Meat Lover</string>
+    <string name="drink_lover">Drink Lover</string>
+
+    <string name="increment">+1</string>
+    <string name="decrement">-1</string>
+
+    <string name="total_initial">Total is: $0.</string>
+    <string name="total">Total is: $<xliff:g id="price" example="0">%d</xliff:g>. Thank you!</string>
+</resources>
